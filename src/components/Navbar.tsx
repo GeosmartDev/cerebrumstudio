@@ -32,9 +32,14 @@ const Navbar = () => {
             </a>
           ))}
         </div>
-        <button className="px-5 py-2 text-sm font-body font-medium rounded border border-primary/40 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-200">
+        <a
+          href="https://forms.gle/b2E7xfhJUqGvFGYb6"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-5 py-2 text-sm font-body font-medium rounded border border-primary/40 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-200 inline-block"
+        >
           Apply
-        </button>
+        </a>
       </div>
     </nav>
   );

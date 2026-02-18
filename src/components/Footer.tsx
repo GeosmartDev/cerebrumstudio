@@ -9,15 +9,22 @@ const Footer = () => {
           © {new Date().getFullYear()} Cerebrum Studio. The intelligence layer behind high-impact companies.
         </p>
         <div className="flex gap-6">
-          {["Apply", "Partner", "Invest"].map((link) => (
-            <a
-              key={link}
-              href="#"
-              className="font-body text-xs text-muted-foreground hover:text-foreground transition-colors duration-200"
-            >
-              {link}
-            </a>
-          ))}
+          <a
+            href="https://forms.gle/b2E7xfhJUqGvFGYb6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-body text-xs text-muted-foreground hover:text-foreground transition-colors duration-200"
+          >
+            Apply
+          </a>
+          <a
+            href="https://forms.gle/qTUbgjciVi9nApEe6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-body text-xs text-muted-foreground hover:text-foreground transition-colors duration-200"
+          >
+            Partner
+          </a>
         </div>
       </div>
     </footer>

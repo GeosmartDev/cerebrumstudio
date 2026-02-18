@@ -22,15 +22,23 @@ const PromiseSection = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button
-            className="px-10 py-4 font-body font-medium text-sm bg-primary text-primary-foreground rounded hover:opacity-90 transition-all duration-200"
+          <a
+            href="https://forms.gle/b2E7xfhJUqGvFGYb6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-10 py-4 font-body font-medium text-sm bg-primary text-primary-foreground rounded hover:opacity-90 transition-all duration-200 inline-block text-center"
             style={{ boxShadow: "var(--shadow-button)" }}
           >
             Apply to the Studio
-          </button>
-          <button className="px-10 py-4 font-body font-medium text-sm border border-border text-foreground rounded hover:border-primary/40 hover:text-primary transition-all duration-200">
+          </a>
+          <a
+            href="https://forms.gle/qTUbgjciVi9nApEe6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-10 py-4 font-body font-medium text-sm border border-border text-foreground rounded hover:border-primary/40 hover:text-primary transition-all duration-200 inline-block text-center"
+          >
             Partner with Cerebrum →
-          </button>
+          </a>
         </div>
       </div>
     </section>
